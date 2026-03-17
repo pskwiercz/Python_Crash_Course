@@ -88,3 +88,13 @@ if my_foods == friend_foods:
     print("list contains the same items")
 else:
     print("list not contains the same items")
+
+print('falafel' in my_foods)    # True
+print('falafel' not in my_foods) # False
+
+# Check if list is empty
+food = []
+if food:
+    print("Not empty")
+else:
+    print("Empty")
